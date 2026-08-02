@@ -1,0 +1,15 @@
+[package]
+name = "helio_standalone_demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+helio = { git = "https://github.com/Far-Beyond-Pulsar/Helio", rev = "1cbd6462" }
+helio-default-graphs = { git = "https://github.com/Far-Beyond-Pulsar/Helio", rev = "1cbd6462" }
+wgpu = { version = "30.0.0", default-features = true, features = ["vulkan", "metal", "dx12", "wgsl"] }
+glam = { version = "0.33", features = ["bytemuck"] }
+winit = { version = "0.30.12", default-features = false, features = ["rwh_06"] }
+bytemuck = { version = "1", features = ["derive"] }
+pollster = "0.4"
+env_logger = "0.11"
+log = "0.4"
