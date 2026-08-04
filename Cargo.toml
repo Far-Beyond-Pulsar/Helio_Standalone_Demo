@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-helio = { git = "https://github.com/Far-Beyond-Pulsar/Helio", rev = "1cbd6462" }
-helio-default-graphs = { git = "https://github.com/Far-Beyond-Pulsar/Helio", rev = "1cbd6462" }
+helio = { git = "https://github.com/Far-Beyond-Pulsar/Helio", rev = "4356a855e33b691aac10621e712bd973d8c4b68b" }
+helio-default-graphs = { git = "https://github.com/Far-Beyond-Pulsar/Helio", rev = "4356a855e33b691aac10621e712bd973d8c4b68b" }
 wgpu = { version = "30.0.0", default-features = true, features = ["vulkan", "metal", "dx12", "wgsl"] }
 glam = { version = "0.33", features = ["bytemuck"] }
 winit = { version = "0.30.12", default-features = false, features = ["rwh_06"] }
